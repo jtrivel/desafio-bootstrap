@@ -115,7 +115,6 @@ body {
 
 main {
 	margin-top: 20rem;
-	overflow-x: hidden;
 }
 
 .img-car {
@@ -178,29 +177,10 @@ main {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
-	position: relative;
-	margin-bottom: 20rem;
-}
-
-.testimonial__shape {
-	position: absolute;
-	max-width: 40rem;
-	left: -13rem;
-	top: 20rem;
-	z-index: -1;
-}
-
-.testimonial__shape-r {
-	position: absolute;
-	max-width: 40rem;
-	right: -13rem;
-	bottom: 20rem;
-	z-index: -1;
 }
 
 .testimonial__card {
 	height: 40vh;
-	position: relative;
 }
 
 .testimonial__card::before {
@@ -226,4 +206,35 @@ main {
 .testimonial__card p {
 	line-height: 1.6;
 	text-align: center;
+}
+
+@media (min-width: 768px) {
+	.tienda__producto img {
+		height: 43rem;
+		width: 100%;
+		object-fit: cover;
+	}
+}
+
+.tienda__content {
+	background-color: rgba(235, 54, 86, 0.03);
+}
+
+.card {
+	border: none !important;
+}
+
+.contacto {
+	margin-bottom: 10rem;
+}
+
+.form-control {
+	padding: 1rem;
+	font-size: 1.4rem;
+}
+
+.contacto__img {
+	height: 60rem;
+	width: 100%;
+	object-fit: cover;
 }

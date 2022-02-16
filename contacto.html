@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Desafio Coder</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+
+  <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white container-fluid fixed-top">
+      <img src="assets/images/shapes/shape-1.png" class="shape-left">
+      <div class="container-xl">
+        <a class="navbar-brand" href="#">
+          <img src="assets/images/logo.png" class="nav__logo" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navegacion">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navegacion">
+          <div class="navbar-nav text-uppercase fs-5 fw-bold ">
+            <a class="nav-link" href="index.html">Inicio</a>
+            <a class="nav-link" href="nosotros.html">Nosotros</a>
+            <a class="nav-link" href="servicios.html">Servicios</a>
+            <a class="nav-link" href="tienda.html">Tienda</a>
+            <a class="nav-link active text-danger" href="contacto.html">Contacto</a>
+          </div>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="contacto container-xl">
+      <div class="text-center">
+        <h3 class="text-center text-danger text-uppercase fs-2 mb-4">Contacto</h3>
+        <h2 class="text-center text-black text-uppercase display-4  mb-5">Mandanos un mensaje</h2>
+      </div>
+
+      <div class="row justify-content-center">
+        <form class="row col-md-8 col-lg-6">
+          <div class="col-12 col-sm-6  mb-3">
+            <input type="text" class="form-control" placeholder="Tu nombre">
+          </div>
+          <div class="col-12 col-sm-6 mb-3">
+            <input type="email" class="form-control" placeholder="Tu email">
+          </div>
+          <div class="col-12 col-sm-6 mb-3">
+            <input type="email" class="form-control" placeholder="Asunto">
+          </div>
+          <div class="col-12 col-sm-6 mb-3">
+            <input type="email" class="form-control" placeholder="Telefono">
+          </div>
+          <div class="col-12 mb-3">
+            <textarea class="form-control" id="mnsj" cols="30" rows="5"
+              placeholder="Escribe tu consulta aqui ..."></textarea>
+          </div>
+          <div class="col-3">
+            <button type="submit" class="btn btn-outline-danger fs-4 btn-lg">Enviar</button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <div class="container-fluid">
+      <div class="row g-0">
+        <div class="col-12 col-sm-6">
+          <iframe width="100%" height="600px" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"
+            src="https://maps.google.com/maps?width=100%25&amp;height=600&amp;hl=en&amp;q=uruguay%20montevideo+(Design)&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"><a
+              href="#"></a></iframe>
+        </div>
+        <div class="col-12 col-sm-6">
+          <img src="assets/images/contactobg.jpg" class="contacto__img">
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer class="footer container-xl pb-2">
+    <div class="row ">
+      <div class="col-12 col-md-4  col-lg-3 mt-5">
+        <img src="assets/images/logo.png" class="nav__logo">
+        <div class="footer__info d-flex flex-column p-0 m-0">
+          <a><i class="bi bi-telephone"></i> +1880 123 456 789</a>
+          <a><i class="bi bi-envelope"></i> contact@bm.com</a>
+          <a><i class="bi bi-map"></i> 1234 Montevideo, UY</a>
+        </div>
+        <div class="footer__socials d-row">
+          <i class="bi bi-facebook me-3"></i>
+          <i class="bi bi-twitter me-3"></i>
+          <i class="bi bi-instagram me-3"></i>
+        </div>
+
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3  mt-5 ">
+        <h3 class=" fw-bold">Acceso rapido</h3>
+        <div class="footer__info d-flex flex-column text-decoration-none">
+          <a href="index.html" class="text-secondary">Inicio</a>
+          <a href="tienda.html" class="text-secondary">Tienda</a>
+          <a href="contacto.html" class="text-secondary">Contacto</a>
+        </div>
+
+      </div>
+      <div class="col-12  col-sm-6 col-md-4 col-lg-3 mt-5">
+        <h3 class=" fw-bold">Servicios</h3>
+        <div class="footer__info d-flex flex-column">
+          <a href="nosotros.html" class="text-secondary">Nosotros</a>
+          <a href="servicios.html" class="text-secondary">Proyectos</a>
+          <a href="#" class="text-secondary">Blog</a>
+        </div>
+      </div>
+      <div class="col-6 col-sm-4 col-lg-3  mt-5">
+        <h3 class=" fw-bold ">Newsletter</h3>
+        <p class="text-nowrap">Suscribite a nuestro newsletter</p>
+        <div class="input-group">
+          <input type="email" class="form-control p-3 fs-4" placeholder="tuemail@ejemplo.com">
+          <button class="btn btn-outline-secondary" type="button"><i class="bi bi-chevron-double-right"></i></button>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
